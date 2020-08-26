@@ -1,0 +1,128 @@
+.error {
+    color: red;
+}
+
+.jui-fast-view .panel-body p.content-group,
+.jui-fast-view .panel-body p.content-group .label {
+    font-size: 15px;
+}
+.jui-fast-view .juiFabula {
+    padding-bottom: 20px;
+}
+.jui-timer {
+    margin-bottom: 0;
+}
+.jui-timer .digits {
+    font-size: 2.5vw;
+}
+
+.fixed-panel {
+    min-height: 100px;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+.fixed-panel-2 {
+    min-height: 250px;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.create-button {
+    position: relative;
+    width: 100%;
+    display: block;
+    z-index: 99;
+    padding-left: 20px;
+}
+
+.dropdown-menu-visible {
+    z-index: 100;
+}
+
+.hint {
+    display: none;
+    position: relative;
+    border: 1px solid darkred;
+}
+
+#jui_juitable_table_wrapper .dataTables_scrollBody {
+    height: 350px;
+}
+
+#erpp_erpptable_table_wrapper .dataTables_scrollBody {
+    height: 350px;
+}
+
+#calendar #external-events {
+    float: left;
+    width: 150px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+#calendar #external-events h4 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+#calendar.external-event { /* try to mimick the look of a real event */
+    margin: 10px 0;
+    padding: 2px 4px;
+    background: #3366CC;
+    color: #fff;
+    font-size: .85em;
+    cursor: pointer;
+}
+
+#calendar #external-events p {
+    margin: 1.5em 0;
+    font-size: 11px;
+    color: #666;
+}
+
+#calendar #external-events p input {
+    margin: 0;
+    vertical-align: middle;
+}
+
+#calendar {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px #C3C3C3;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #ccc;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.not-clickable {
+    pointer-events: none;
+}
+
+.clickable {
+    pointer-events: all !important;
+}
+
+.suspects .timer > li {
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    color: #555;
+    font-weight: 300;
+}
+
+.suspects .timer > li.dots {
+    font-size: 20px;
+    vertical-align: top;
+    padding: 7px 0;
+}
